@@ -1,0 +1,152 @@
+@import "font.css";
+
+
+#prodectzone{
+    width: 80%;
+    margin: 50px auto ;
+    margin-top: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 10px 0px;
+
+}
+#slider2{
+    width: 50%;
+    height: 400px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url(../images/slider/P1230067.JPG); */
+    background-size: cover;
+    /* box-shadow: 2px 7px 10px black; */
+    margin-top: 100px;
+
+
+}
+
+.w{
+
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    position: relative;
+    transition: 1s;
+    cursor: pointer;
+    /* box-shadow: 2px 1px 10px black; */
+}
+
+.w:hover{
+    background-color: rgba(248, 248, 248, 0.671);
+
+}
+
+
+
+
+
+.w button{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%,-50%);
+    font-size: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    color: red;
+    font-weight: bold;
+
+}
+
+#infoprod{
+    width: 48%;
+    /* border-left: 2px solid black; */
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.salebtn{
+    width: 70px;
+    height: 56px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: rgb(218, 36, 23);
+    margin-bottom: 20px;
+}
+
+.salebtn h3{
+    margin-top: 10px;
+    font-family: Hello;
+    color: white;
+
+}
+
+.dt{
+    width: 100%;
+    
+    /* border: 2px solid black; */
+    /* padding: 5px 20px; */
+    margin: 20px 0px;
+}
+
+.dt p{
+    padding-bottom: 2px;
+    color: black;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+.titre h2{
+    font-family: Hello ;
+    font-style: italic;
+    color: rgb(110, 110, 110);
+    font-size: 35px;
+
+}
+
+.titre{
+    width: 75%;
+}
+
+.prix{
+    font-family: SIMPLIFICA;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(223, 85, 75);
+}
+
+.discount{
+    font-family: Capriola;
+
+    color: rgb(223, 85, 75);
+}
+
+.quantité{
+    font-family: Capriola;
+    color: rgb(40, 218, 129);
+    font-size: 20px;
+}
+
+.discription{
+    font-family: Aileron;
+
+}
+
+.qinpute{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.was-price{
+    text-decoration: line-through;
+}
+
+.qinpute .btn{
+    text-transform: uppercase;
+    margin-left: 5px;
+
+}
+

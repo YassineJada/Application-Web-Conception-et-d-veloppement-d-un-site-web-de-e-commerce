@@ -1,0 +1,23 @@
+#categorieges{
+    margin: 0 auto;
+    display: flex;
+    /* border: 2px solid black; */
+    width: 85%;
+}
+.listecatégories{
+    width: 35%;
+}
+
+
+
+.addcat{
+    /* border: 2px solid black; */
+
+    width: 60% ;
+    margin: 10px auto;
+    padding: 20px 20px;
+}
+
+.addcat h3{
+    text-align: center;
+}

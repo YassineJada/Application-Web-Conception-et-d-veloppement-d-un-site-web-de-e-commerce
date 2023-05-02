@@ -1,0 +1,15 @@
+
+/* foother SHeeeet */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+
+}
+
+.imgdiv,.categories, .adress, .pages{
+    /* border: 1px solid black; */
+    width: 25%;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+#typegest{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.typedt{
+    width: 45%;
+
+}
+
+.typeaside{
+    width: 50%;
+}

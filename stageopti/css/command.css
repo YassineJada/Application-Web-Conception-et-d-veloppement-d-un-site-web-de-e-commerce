@@ -1,0 +1,22 @@
+.table{
+    width: 60%;
+    
+    margin: 50px auto;
+}
+#content{
+    padding: 20px 0px;
+}
+
+.cform{
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.cont{
+    border: 2px solid black;
+    width: 80%;
+    margin: 10px auto;
+    /* height: 30px; */
+}
